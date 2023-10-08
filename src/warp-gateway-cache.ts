@@ -124,7 +124,7 @@ export function getTokenBalanceWarp(contractId: string, address: string): string
   return '0';
 }
 
-export function getStateRedWarp(contractId: string): { state: any; validity: Record<string, boolean> } {
+export function getStateWarp(contractId: string): { state: any; validity: Record<string, boolean> } {
   if (mapStatus.has(contractId) == false) {
     return;
   }

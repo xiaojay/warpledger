@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { getContractExecutedWarp, getWarp, getTokenBalanceWarp } from './warp-gateway-cache';
+import { getContractExecutedWarp, getStateWarp, getTokenBalanceWarp } from './warp-gateway-cache';
 const app = express();
 app.use(cors());
 
